@@ -11,18 +11,16 @@
     padding: 75px 0px;
 }
 
-@media screen (max-width: 800px;)
-    
-} 
-
-#VD_Logo{position: absolute;
+@media screen {
+   /* mobile phone  */
+    #VD_Logo{position: absolute;
     height: auto;
     min-width: 300px;
     width: 300px;
 
     left:0px;
     top: 10px
-    z-index: 2;
+    
 }
 
 #navbar{ position: absolute;
@@ -50,4 +48,5 @@ position: absolute;
 left: 300px;
 top:18vw;
 z-index: 2;
+}
 }
